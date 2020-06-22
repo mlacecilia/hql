@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+
+   <qresource>
+
+      <!-- images -->
+      <file alias="pgmhome">resources/home.jpg</file>
+      <file alias="pgmpng">resources/home.png</file>
+      <file alias="pgmico">resources/home.ico</file>
+
+   </qresource>
+
+</RCC>

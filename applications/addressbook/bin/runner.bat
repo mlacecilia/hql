@@ -1,0 +1,11 @@
+@ECHO OFF
+
+SET SAVE_PATH=%PATH%
+SET QTDIR=C:\sviclip\xtotest
+SET PATH=%QTDIR%;%PATH%
+
+START "addrbook" /D%CD% /B "addrbook.exe"
+
+SET PATH=%SAVE_PATH%
+SET SAVE_PATH=
+SET QTDIR=

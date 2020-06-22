@@ -1,0 +1,6 @@
+description=HQLCORE is Harbour QtContribs Layer
+
+incpaths=include
+libpaths=lib
+libs=${_HB_DYNPREF}${hb_name}${_HB_DYNSUFF}
+libs=hbqt.hbc

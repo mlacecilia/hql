@@ -1,0 +1,26 @@
+QCalendarWidget:disabled,
+QCheckBox:disabled,
+QComboBox:disabled,
+QCommandLinkButton:disabled,
+QDateEdit:disabled,
+QDateTimeEdit:disabled,
+QLabel:disabled,
+QLCDNumber:disabled,
+QLineEdit:disabled,
+QListWidget:disabled,
+QPlainTextEdit:disabled,
+QProgressBar:disabled,
+QPushButton:disabled,
+QRadioButton:disabled,
+QSlider:disabled,
+QSpinBox:disabled,
+QTableWidget:disabled,
+QTabWidget:disabled,
+QTextEdit:disabled,
+QTimeEdit:disabled,
+QToolBar:disabled,
+QToolButton:disabled,
+QTreeWidget:disabled {
+   background-color: #D1D1FF;
+   color: #4D4DFF;
+}

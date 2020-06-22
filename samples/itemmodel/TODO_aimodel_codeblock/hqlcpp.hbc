@@ -1,0 +1,13 @@
+#
+#
+
+# check minimum Harbour version required
+stop={(hb_major<'3')|((hb_major='3')&(hb_minor<'2'))}'error: minimum Harbour version required 3.2.0'
+
+description=
+
+incpaths=include
+libpaths=lib
+libs=${hb_name}
+
+libs=hbqt.hbc

@@ -1,0 +1,16 @@
+-hbcontainer
+
+#
+#    HQLCORE core library (required)
+#
+src/hqlcore/hqlcore.hbp
+
+#
+#    HQLHELP
+#
+src/hqlhelp/hqlhelp.hbp
+
+#
+#    HQLCHART
+#
+src/hqlchart/hqlchart.hbp

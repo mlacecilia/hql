@@ -1,0 +1,32 @@
+# output file name
+-o${hb_name}
+# incremental
+-inc
+# work dir
+-workdir=${hb_work}/${hb_plat}/${hb_comp}/${hb_name}
+# error level
+-w3
+# exit severity error level
+-es2
+# error output mode: 1=IDE friendly
+-ge1
+# quiet and don't display program header
+-q0
+# output type: C source (.c) 2=verbose
+-gc2
+# compress
+-strip
+# relocate object code
+-pic
+#implicit starting procedure 2=add starting procedure if necessary
+-n2
+
+hbqt.hbc
+../hqlcpp.hbc
+../../hqlcore.hbc
+
+oop001.prg
+hql-atmodel.prg
+
+my-model.prg
+my-browse.prg

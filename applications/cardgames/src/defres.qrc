@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+
+<!-- thisapp .png icons -->
+<qresource>
+   <file alias="pgmico">resources/logo.png</file>
+   <file alias="pgmhome">resources/home.png</file>
+</qresource>
+
+<!-- thisapp style sheet
+<qresource>
+    <file>style/stylesheet.qss</file>
+</qresource>
+ -->
+
+<!-- thisapp translations (same prefix)
+<qresource>
+   <file>translations/gesafe_it.qm</file>
+</qresource>
+-->
+
+</RCC>

@@ -1,0 +1,9 @@
+QLineEdit:disabled, QComboBox:disabled, QDateEdit:disabled {
+   background-color: #78B263; 
+   color: #000000; 
+}
+
+/* Nice Windows-XP-style password character. */
+QLineEdit[echoMode="2"] {
+    lineedit-password-character: 9679;
+}

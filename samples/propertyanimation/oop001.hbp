@@ -1,0 +1,11 @@
+../../hqlcore.hbc
+
+-o${hb_targetname}
+
+-workdir=${hb_work}/${hb_plat}/${hb_comp}/${hb_targetname}
+-inc
+-w3 -es2
+-pic
+-strip
+
+oop001.prg

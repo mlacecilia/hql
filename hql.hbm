@@ -1,0 +1,24 @@
+hbqt.hbc
+
+# working directory
+-workdir=${hb_work}/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
+
+# enable incremental build mode
+-inc
+
+# make lib
+-hblib
+
+# output lib WARNING: do not use ${hb_name}
+-olib/${hb_targetname}
+
+# Harbour options
+-iinclude
+-w3
+-es2
+
+# create position independent object code
+-pic
+
+# strip binaries
+-strip

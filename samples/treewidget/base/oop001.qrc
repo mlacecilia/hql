@@ -1,0 +1,11 @@
+<!DOCTYPE RCC><RCC version="1.0">
+
+<qresource>
+
+   <file alias="ballr">resources/ball_red.png</file>
+   <file alias="ballb">resources/ball_blue.png</file>
+   <file alias="bally">resources/ball_yellow.png</file>
+
+</qresource>
+
+</RCC>

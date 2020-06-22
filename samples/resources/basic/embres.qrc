@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+
+<!-- test icons -->
+<qresource prefix="/emb">
+    <file alias="image1">resources/internal.png</file>
+</qresource>
+
+</RCC>

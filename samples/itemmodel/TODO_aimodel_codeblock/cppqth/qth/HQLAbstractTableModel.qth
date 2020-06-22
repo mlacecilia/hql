@@ -1,0 +1,89 @@
+/****************************************************************************
+** $HQL_BEGIN_LICENSE$
+**
+** Copyright (C) 2020 by Luigi Ferraris
+**
+** This file is part of HQL project
+**
+** HQL is free software: you can redistribute it and/or modify
+** it under the terms of the GNU General Public License as published by
+** the Free Software Foundation, either version 3 of the License, or
+** (at your option) any later version.
+**
+** HQL is distributed in the hope that it will be useful,
+** but WITHOUT ANY WARRANTY; without even the implied warranty of
+** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+** GNU General Public License for more details.
+**
+** You should have received a copy of the GNU General Public License
+** along with HQL.  If not, see <http://www.gnu.org/licenses/>.
+**
+** $HQL_END_LICENSE$
+****************************************************************************/
+<CLASS>
+QObject     =
+Inherit     = QAbstractTableModel
+Type        =
+New         =
+</CLASS>
+
+<SUBCLASS>
+</SUBCLASS>
+
+<DOC>
+</DOC>
+
+<CODE>
+#include <QtCore/QAbstractTableModel>
+#include "hbqt_hqlabstracttablemodel.h"
+
+/*
+ * HQLAbstractTableModel ( QObject * parent = 0 )
+ * HQLAbstractTableModel ()
+ */
+HB_FUNC( QT_HQLABSTRACTTABLEMODEL )
+{
+
+   if( hb_pcount() == 1  && hbqt_par_isDerivedFrom( 1, "QOBJECT" ) )
+   {
+      __HB_RETPTRGC__( new HQLAbstractTableModel( hbqt_par_QObject( 1 ) ) );
+   }
+   else
+   {
+      __HB_RETPTRGC__( new HQLAbstractTableModel() );
+   }
+
+}
+</CODE>
+
+<ENUMS>
+</ENUMS>
+
+<PROTOS>
+void hbSetBlock( PHB_ITEM block )
+void hbClearBlock()
+QModelIndex index( int row, int column, const QModelIndex & parent = QModelIndex() ) const
+
+void reset()
+void EmitDataChanged( const QModelIndex & topLeft, const QModelIndex & bottomRight )
+void EmitHeaderDataChanged( Qt::Orientation orientation, int first, int last)
+void EmitLayoutAboutToBeChanged()
+void EmitLayoutChanged()
+void beginInsertRows( const QModelIndex & parent, int first, int last )
+void endInsertRows()
+void beginRemoveRows( const QModelIndex & parent, int first, int last )
+void endRemoveRows()
+void beginInsertColumns( const QModelIndex & parent, int first, int last)
+void endInsertColumns()
+void beginRemoveColumns( const QModelIndex & parent, int first, int last)
+void endRemoveColumns()
+void beginResetModel()
+void endResetModel()
+
+</PROTOS>
+
+<SLOTS>
+</SLOTS>
+
+<SIGNALS>
+</SIGNALS>

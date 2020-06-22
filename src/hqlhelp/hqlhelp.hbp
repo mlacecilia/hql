@@ -1,0 +1,8 @@
+../../hqlcore.hbc
+
+# default directives
+../../hql.hbm
+
+# hqlhelp sources
+src/hqlhelpwindow.prg
+src/hqlhelpengine.prg

@@ -1,0 +1,11 @@
+<!DOCTYPE RCC><RCC version="1.0">
+
+<!-- test fonts -->
+<qresource prefix="/fontembd">
+   <file>resources/Vera.ttf</file>
+   <file>resources/VeraBd.ttf</file>
+   <file>resources/VeraBI.ttf</file>
+   <file>resources/VeraIt.ttf</file>
+</qresource>
+
+</RCC>

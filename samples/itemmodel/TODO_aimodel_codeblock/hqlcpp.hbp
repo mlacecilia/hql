@@ -1,0 +1,33 @@
+#
+#
+# check minimum Harbour version required
+{(hb_major<'3')|((hb_major='3')&(hb_minor<'2'))}-stop='error: minimum Harbour version required 3.2.0'
+
+-pflag=-qtver=0x040500
+-pflag=-qtmodule=qtgui
+-pflag=-qthdocdir=../doc/
+
+-hblib
+-olib/${hb_name}
+-inc
+-workdir=${hb_work}/${hb_plat}/${hb_comp}/${hb_targetname}
+-pic
+
+-w3
+-es2
+-strip
+-iinclude
+-i./cppqth
+-i${HB_WITH_QT}
+
+# debugging options
+# -cflag=-DHB_TR_LEVEL_DEBUG
+# -pflag=-D__HB_DEBUG__
+
+hbqt.hbc
+# required to include hbqtqaim.ch
+../hqlev.hbc
+
+cppqth/hbqt_hqlabstracttablemodel.cpp
+cppqth/hbqt_hqlabstracttablemodel.h
+cppqth/qth/HQLAbstractTableModel.qth

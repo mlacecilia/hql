@@ -1,0 +1,6 @@
+description=HQLHELP help library
+
+incpaths=include
+libpaths=lib
+libs=${_HB_DYNPREF}${hb_name}${_HB_DYNSUFF}
+libs=hqlcore.hbc

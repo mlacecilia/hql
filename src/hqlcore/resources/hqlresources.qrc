@@ -1,0 +1,115 @@
+<!DOCTYPE RCC><RCC version="1.0">
+
+<!-- Hql .png icons -->
+<qresource prefix="/hqlres">
+
+   <!-- Hql logos -->
+   <file alias="HQL96">logo/hql96.png</file>
+   <file alias="HQL32">logo/hql32.png</file>
+   <file alias="dummy">logo/hqldummy.png</file>
+
+   <!-- Hql buttons -->
+   <file alias="accept">buttons/accept.png</file>
+   <file alias="calendar">buttons/calendar.png</file>
+   <file alias="clear">buttons/clear.png</file>
+   <file alias="critical">buttons/critical.png</file>
+   <file alias="danger">buttons/danger.png</file>
+   <file alias="database">buttons/database.png</file>
+   <file alias="document">buttons/document.png</file>
+   <file alias="exit">buttons/exit.png</file>
+   <file alias="eyeclose">buttons/eyeclose.png</file>
+   <file alias="eyeopen">buttons/eyeopen.png</file>
+   <file alias="filter">buttons/filter.png</file>
+   <file alias="folder">buttons/folder.png</file>
+   <file alias="folderopen">buttons/folder_open.png</file>
+   <file alias="godown">buttons/go_down.png</file>
+   <file alias="goleft">buttons/go_left.png</file>
+   <file alias="goright">buttons/go_right.png</file>
+   <file alias="goup">buttons/go_up.png</file>
+   <file alias="help">buttons/help.png</file>
+   <file alias="home">buttons/home.png</file>
+   <file alias="information">buttons/information.png</file>
+   <file alias="login">buttons/log_in.png</file>
+   <file alias="logout">buttons/log_out.png</file>
+   <file alias="pleject">buttons/player_eject.png</file>
+   <file alias="plffw">buttons/player_ffw.png</file>
+   <file alias="plfirst">buttons/player_first.png</file>
+   <file alias="pllast">buttons/player_last.png</file>
+   <file alias="plpause">buttons/player_pause.png</file>
+   <file alias="plplay">buttons/player_play.png</file>
+   <file alias="plrec">buttons/player_rec.png</file>
+   <file alias="plrewind">buttons/player_rewind.png</file>
+   <file alias="plstop">buttons/player_stop.png</file>
+   <file alias="print">buttons/print.png</file>
+   <file alias="question">buttons/question.png</file>
+   <file alias="quit">buttons/quit.png</file>
+   <file alias="recadd">buttons/rec_add.png</file>
+   <file alias="recdel">buttons/rec_del.png</file>
+   <file alias="recedit">buttons/rec_edit.png</file>
+   <file alias="reclist">buttons/rec_list.png</file>
+   <file alias="recsave">buttons/rec_save.png</file>
+   <file alias="recselect">buttons/rec_select.png</file>
+   <file alias="refresh">buttons/refresh.png</file>
+   <file alias="remove">buttons/remove.png</file>
+   <file alias="save">buttons/save.png</file>
+   <file alias="search">buttons/search.png</file>
+   <file alias="sortasc">buttons/sort_ascend.png</file>
+   <file alias="sortdesc">buttons/sort_descend.png</file>
+   <file alias="txtbold">buttons/text_bold.png</file>
+   <file alias="txtcenter">buttons/text_centered.png</file>
+   <file alias="txtcolor">buttons/text_color.png</file>
+   <file alias="txtfamily">buttons/text_family.png</file>
+   <file alias="txtdecind">buttons/text_indent_decrease.png</file>
+   <file alias="txtincind">buttons/text_indent_increase.png</file>
+   <file alias="txtitalic">buttons/text_italic.png</file>
+   <file alias="txtjust">buttons/text_justified.png</file>
+   <file alias="txtlalign">buttons/text_left_aligned.png</file>
+   <file alias="txtralign">buttons/text_right_aligned.png</file>
+   <file alias="txtsize">buttons/text_size.png</file>
+   <file alias="txtstrout">buttons/text_strikeout.png</file>
+   <file alias="txtunderl">buttons/text_underline.png</file>
+   <file alias="tools">buttons/tools.png</file>
+   <file alias="trash">buttons/trash.png</file>
+   <file alias="undo">buttons/undo.png</file>
+   <file alias="users">buttons/users.png</file>
+   <file alias="warning">buttons/warning.png</file>
+   <file alias="world">buttons/world.png</file>
+   <file alias="zoom">buttons/zoom.png</file>
+   <file alias="zoomin">buttons/zoom_in.png</file>
+   <file alias="zoomout">buttons/zoom_out.png</file>
+
+   <!-- Hql cflags ISO-3166 -->
+   <file alias="cf_olimpic">cflags/_olimpic.png</file>
+   <file alias="cf_at">cflags/at.png</file>
+   <file alias="cf_be">cflags/be.png</file>
+   <file alias="cf_ch">cflags/ch.png</file>
+   <file alias="cf_cz">cflags/cz.png</file>
+   <file alias="cf_de">cflags/de.png</file>
+   <file alias="cf_dk">cflags/dk.png</file>
+   <file alias="cf_es">cflags/es.png</file>
+   <file alias="cf_eu">cflags/eu.png</file>
+   <file alias="cf_fr">cflags/fr.png</file>
+   <file alias="cf_gb">cflags/gb.png</file>
+   <file alias="cf_gr">cflags/gr.png</file>
+   <file alias="cf_ie">cflags/ie.png</file>
+   <file alias="cf_is">cflags/is.png</file>
+   <file alias="cf_it">cflags/it.png</file>
+   <file alias="cf_li">cflags/li.png</file>
+   <file alias="cf_lu">cflags/lu.png</file>
+   <file alias="cf_nl">cflags/nl.png</file>
+   <file alias="cf_no">cflags/no.png</file>
+   <file alias="cf_pl">cflags/pl.png</file>
+   <file alias="cf_pt">cflags/pt.png</file>
+   <file alias="cf_se">cflags/se.png</file>
+   <file alias="cf_sk">cflags/sk.png</file>
+   <file alias="cf_us">cflags/us.png</file>
+
+</qresource>
+
+<!-- Hql translations (same prefix)
+<qresource prefix="/hqlres">
+   <file>translations/hql_it.qm</file>
+</qresource>
+-->
+
+</RCC>

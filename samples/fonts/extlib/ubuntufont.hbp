@@ -1,0 +1,17 @@
+hbqt.hbc
+
+-hblib
+-olib/${hb_targetname}
+
+-workdir=${hb_work}/${hb_plat}/${hb_comp}/${hb_targetname}
+-inc
+
+-w3 -es2
+-pic
+-strip
+
+# sources
+ubuntufont/ubuntufont.prg
+
+# resources
+ubuntufont/ubuntufont.qrc

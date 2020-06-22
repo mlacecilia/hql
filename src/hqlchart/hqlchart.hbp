@@ -1,0 +1,14 @@
+../../hqlcore.hbc
+
+# default directives
+../../hql.hbm
+
+# hqlchart sources
+src/hqlchartaxis.prg
+src/hqlchartdata.prg
+src/hqlchartdrawer.prg
+src/hqlchartobj.prg
+src/hqlchartpiece.prg
+src/hqlchartscales.prg
+src/hqlchartserie.prg
+src/hqlchartwidget.prg

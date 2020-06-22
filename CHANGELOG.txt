@@ -15,6 +15,11 @@
 **   YYYY-MM-DD HH:MM UTC+HHMM user_name (user_email)
 ****************************************************************************/
 
+2020-06-22 14:16 UTC+0200 l3w (25797042+l3w/at/users.noreply.github.com)
+  + LICENSE.CC
+  + LICENSE.GPL
+    Upload licenses text files.
+
 2020-06-22 14:02 UTC+0200 l3w (25797042+l3w/at/users.noreply.github.com)
   + .gitattributes
   + .gitignore

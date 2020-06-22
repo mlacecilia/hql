@@ -1,0 +1,49 @@
+#  license required
+*.c      text
+*.h      text
+*.cpp    text
+*.hpp    text
+*.ch     text
+*.prg    text
+*.qth    text
+
+#  without license
+*.hbm    text
+*.hbp    text
+*.hbc    text
+
+#  fixed eol
+*.bat    text eol=crlf
+*.sh     text eol=lf
+
+#  generic
+*.conf   text
+*.txt    text
+*.md     text
+
+# binary due to its nature
+*.qm     binary
+*.qrc    binary
+*.qss    binary
+*.rc     binary
+*.rcc    binary
+*.ts     binary
+
+# images, etc.
+*.gif    binary
+*.jpg    binary
+*.ico    binary
+*.png    binary
+*.xcf    binary
+*.ttf    binary
+*.pdf    binary
+*.zip    binary
+*.htm    binary
+*.html   binary
+
+# special cases
+CHANGELOG.txt  text ident
+README.md      text
+LICENSE.CC     text eol=lf
+LICENSE.GPL    text eol=lf
+header.gpl     binary

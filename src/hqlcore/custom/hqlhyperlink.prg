@@ -78,61 +78,48 @@ RETURN self
 
 /*!
 
- \brief open external link protocol http | https
- \param(IN) strings href [, text to show]
+ \brief Open external link using "http" OR "https" protocol; optionally, alternative text to be shown can given.
+ \param(IN) strings [, string]
  \return self
 
 */
 METHOD hqlHttp( cHref, cTextToShow ) CLASS hql_hyperLink
 
-   cHref := hb_DefaultValue(cHref, "")
-   cTextToShow := hb_DefaultValue(cTextToShow, "")
+   cHref := ALLTRIM( hb_DefaultValue( cHref, "" ) )
+   cTextToShow := hb_DefaultValue( cTextToShow, "" )
 
-   IF ( LEN(ALLTRIM(cHref)) > 0 )
-
-      IF ( hb_AtI( "http://", cHref, 1, 7 ) > 0 ) .OR. ( hb_AtI( "http:", cHref, 1, 5 ) > 0 ) .OR. ;
-         ( hb_AtI( "https://", cHref, 1, 8 ) > 0 ) .OR. ( hb_AtI( "https:", cHref, 1, 6 ) > 0 )
-         // nothing to do
-      ELSE
+   IF( !EMPTY( cHref ) )
+      IF( hb_AtI( "http:", cHref, 1, 5 ) == 0 .AND. hb_AtI( "https:", cHref, 1, 6 ) == 0 )
          cHref := "http:" + cHref
       ENDIF
-
-      IF ( LEN(ALLTRIM(cTextToShow)) == 0 )
+      IF( EMPTY( cTextToShow ) )
          cTextToShow := cHref
       ENDIF
-
       ::setText( "<a href='" + cHref + "'>" + cTextToShow + "</a>" )
-
    ENDIF
 
 RETURN Self
 
 /*!
 
- \brief open external link protocol http | https
- \param(IN) strings href [, text to show]
+ \brief Open external link using "mailto" protocol; optionally, alternative text to be shown can given.
+ \param(IN) strings [, string]
  \return self
 
 */
 METHOD hqlMailTo( cHref, cTextToShow ) CLASS hql_hyperLink
 
-   cHref := hb_DefaultValue(cHref, "")
-   cTextToShow := hb_DefaultValue(cTextToShow, "")
+   cHref := ALLTRIM( hb_DefaultValue( cHref, "" ) )
+   cTextToShow := hb_DefaultValue( cTextToShow, "" )
 
-   IF ( LEN(ALLTRIM(cHref)) > 0 )
-
-      IF ( hb_AtI( "mailto://", cHref, 1, 9 ) > 0 ) .OR. ( hb_AtI( "mailto:", cHref, 1, 7 ) > 0 )
-         // nothing to do
-      ELSE
+   IF( !EMPTY( cHref ) )
+      IF( hb_AtI( "mailto:", cHref, 1, 7 ) == 0 )
          cHref := "mailto:" + cHref
       ENDIF
-
-      IF ( LEN(ALLTRIM(cTextToShow)) == 0 )
+      IF( EMPTY( cTextToShow ) )
          cTextToShow := cHref
       ENDIF
-
       ::setText( "<a href='" + cHref + "'>" + cTextToShow + "</a>" )
-
    ENDIF
 
 RETURN Self
@@ -157,24 +144,23 @@ RETURN self
 
 /*!
 
- \brief to use label as a button with hyper text link
- \param(IN) strings href [, text to show]
+ \brief Used to run internal action IOW a hyper text link; optionally, alternative text to be shown can given.
+ \param(IN) string [, string]
  \return self
 
 */
 METHOD hqlRunAct( cHref, cTextToShow ) CLASS hql_hyperLink
 
-   cHref := hb_DefaultValue(cHref, "")
-   cTextToShow := hb_DefaultValue(cTextToShow, "")
+   cHref := ALLTRIM( hb_DefaultValue( cHref, "" ) )
+   cTextToShow := hb_DefaultValue( cTextToShow, "" )
 
-   IF ( LEN(ALLTRIM(cHref)) > 0 )
-      IF ( LEN(ALLTRIM(cTextToShow)) == 0 )
+   IF( !EMPTY( cHref ) )
+      IF( EMPTY( cTextToShow ) )
          cTextToShow := cHref
       ENDIF
 
       ::setText( "<a href='" + cHref + "'>" + cTextToShow + "</a>" )
-      ::setOpenExternalLinks( .F. )  // most important to avoids running of external program
-
+      ::setOpenExternalLinks( .F. )  // most important to avoids running external program
    ENDIF
 
 RETURN Self

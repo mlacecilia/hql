@@ -8,12 +8,24 @@
 **      '*'   Modified
 **      ';'   comment
 **      '!'   Fixed
+**      '%'   Optimization
 **
 **   Entries may not always be in chronological/commit order.
 **
 **   Header Skeleton
 **   YYYY-MM-DD HH:MM UTC+HHMM user_name (user_email)
 ****************************************************************************/
+
+2020-06-24 13:51 UTC+0200 l3w (25797042+l3w/at/users.noreply.github.com)
+  * CHANGELOG.txt
+    + '%' flag for 'Optimization' on top
+
+  * samples/hyperlink/oop001.prg
+    + add hqlHyperLink example to show usage hqlRunAct(...) method
+  
+  % src/hqlcore/custom/hqlhyperlink.prg
+    % :hqlHttp() , :hqlMailTo() , :hqlRunAct() methods
+      handling arguments. Thanks Francesco.
 
 2020-06-22 18:35 UTC+0200 l3w (25797042+l3w/at/users.noreply.github.com)
   * .gitattributes

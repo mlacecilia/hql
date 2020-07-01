@@ -1,4 +1,9 @@
-# **H**arbour **Q**tContribs **L**ayer
+<p align="center">
+  <img src="https://github.com/l3w/hql/blob/master/src/hqlcore/resources/logo/hql96.png?raw=true" alt="HQL"/>
+</p>
+
+**H**arbour **Q**tContribs **L**ayer
+---
 HQL is a xBase library; it is a layer between xBase sources and [QtContribs](https://sourceforge.net/projects/qtcontribs/) library (xBase binding to [Qt](https://www.qt.io/) framework).
 HQL must be compiled with [Harbour](https://harbour.github.io/).
 For this reason where [Harbour](https://harbour.github.io/) and [QtContribs](https://sourceforge.net/projects/qtcontribs/) can be installed, compiled and run, HQL can be used. 
@@ -26,21 +31,22 @@ About documentation, notes, icons, images, fonts, in other words all materials n
 - [ ] [Harbour](https://harbour.github.io/) installed and usable; for any questions or problems visit [Harbour Users Group](https://groups.google.com/forum/#!forum/harbour-users) forum.
 - [ ] [QtContribs](https://sourceforge.net/projects/qtcontribs/) installed and usable; for any questions or problems visit [QtContribs Users Group](https://groups.google.com/forum/?hl=it&fromgroups#!forum/qtcontribs)
 - [ ] [Qt](https://www.qt.io/) installed and usable.
-*Any questions or problems related with these tools are out ot of scope of this project.*
 - [ ] Supported ANSI C compiler / toolchain
+
+*Any questions or problems related with these tools are out ot of scope of this project.*
 
 ## How to Get
 *WARNING:* always read [CHANGELOG.txt](CHANGELOG.txt?raw=true) before usage.
 
-Visit [HQL project](<https://github.com/projects/hql/>) and download.
+Visit [HQL](https://github.com/l3w/hql) and
 
 * Using Git version control software installed on your system, issue this command:
-`git clone https://github.com/hql/core.git`
+`git clone https://github.com/l3w/hql.git`
 You can get subsequent updates using this command:
 `git pull`
 
 * Alternative
-Click on button [Clone or download](<https://github.com/projects/hql/>) at the top right.
+Click on button [Clone](https://github.com/l3w/hql.git) at the top right.
 
 ## How to Build
 
@@ -82,7 +88,7 @@ HQL has a rich examples directory. To build each program, enter Harbour 'hbmk2' 
 cd ...hql/samples/pushbutton
 hbmk2 oop001
 ```
-*WARNING:* sometimes, example has icons, images, fonts, translations, etc. has *external resources*. You need to copy these subfolders/files along with executable program.
+*WARNING:* sometimes, example need icons, images, fonts, translations, etc. has *external resources*. You need to copy these subfolders/files along with executable program.
 
 ## Get Help
 ASAP will be defined.

@@ -16,13 +16,20 @@
 **   YYYY-MM-DD HH:MM UTC+HHMM user_name (user_email)
 ****************************************************************************/
 
+2020-06-24 16:49 UTC+0200 l3w (25797042+l3w/at/users.noreply.github.com)
+  ! CHANGELOG.txt
+    ! text
+  * README.md
+    + logo image
+    ! text and links
+
 2020-06-24 13:51 UTC+0200 l3w (25797042+l3w/at/users.noreply.github.com)
   * CHANGELOG.txt
     + '%' flag for 'Optimization' on top
 
   * samples/hyperlink/oop001.prg
-    + add hqlHyperLink example to show usage hqlRunAct(...) method
-  
+    + hqlHyperLink example to show hqlRunAct(...) usage
+
   % src/hqlcore/custom/hqlhyperlink.prg
     % :hqlHttp() , :hqlMailTo() , :hqlRunAct() methods
       handling arguments. Thanks Francesco.
